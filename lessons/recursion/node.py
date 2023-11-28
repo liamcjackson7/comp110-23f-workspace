@@ -22,8 +22,8 @@ class Node:
         else:
             return f"{self.data} -> {self.next}"
         
-    def head(self):
-        return None
+    def head(self) -> int:
+        return self.data
     
     def tail(self):
         return None
